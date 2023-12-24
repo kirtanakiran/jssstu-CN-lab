@@ -45,8 +45,8 @@ public class FrameSorting {
             System.out.println("Frame " + frame.seqNo + " : " + frame.data);
         }
         Collections.sort(frames, (f1, f2) -> Integer.compare(f1.seqNo, f2.seqNo));
-
         System.out.print("After Sorting\n");
+        
         for (Frame frame : frames) {
             System.out.println("Frame " + frame.seqNo + " : " + frame.data);
         }
