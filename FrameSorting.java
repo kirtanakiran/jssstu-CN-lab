@@ -36,7 +36,7 @@ public class FrameSorting {
 
         for (Frame frame : frames) {
             System.out.print("Enter data for frame " + frame.seqNo + ": ");
-            frame.data = scanner.next();
+            frame.data = sc.next();
         }
         Collections.shuffle(frames);
         System.out.print("Before Sorting\n");
