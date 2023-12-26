@@ -30,7 +30,7 @@ public class LeakyBucket {
                 System.out.println("Number of Packets Dropped " + (storedBufferSize + inputPacketSize - bucketSize));
                 storedBufferSize = bucketSize;
             }
-            /* System.out.println("Stored Buffer Size: " + storedBufferSize); */
+        /* System.out.println("Stored Buffer Size: " + storedBufferSize); */
             storedBufferSize -= outputPacketSize;
         }
 
